@@ -1,1 +1,51 @@
 @import "../Import.scss";
+
+.nav_large {
+  max-width: 895px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: $yellow;
+
+  @include borderRadius(5px);
+  @include boxShadow(2px 2px 3px rgba(0,0,0,.3));
+}
+
+.nav_large img {
+  float: left;
+  margin-bottom: -8000%;
+  height: 680px;
+}
+
+.nav_large h1 {
+  margin: 35px;
+  font-size: 41px;
+  font-weight: 200;
+  color: #fdfcf7;
+}
+
+.nav_large > p {
+  max-width: 250px;
+  margin: 0 35px 35px 35px;
+  font-size: 21px;
+  color: $textOne;
+}
+
+.nav_large a {
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+  margin: 0 0 35px 130px;
+  background-color: $brown;
+  color: $textTwo;
+  padding-left: 15px;
+  font-size: 14px;
+  text-decoration: none;
+  @include borderRadius(50px);
+  @include transition(background .3s);
+}
+
+.nav_large a:hover {
+  background-color: $darkBrown;
+}
+
