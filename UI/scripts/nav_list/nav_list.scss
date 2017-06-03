@@ -140,6 +140,10 @@
   outline: none;
 }
 
+.ui_searchlist > div {
+  overflow: hidden;
+}
+
 @media screen and (max-width: 320px) {
   .ui_navlist span {
     margin-top: 45px;
