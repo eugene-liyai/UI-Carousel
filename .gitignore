@@ -1,0 +1,6 @@
+# IDE
+/.idea
+
+/.sass-cache
+.sass-cache
+*.map
