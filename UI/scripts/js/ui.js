@@ -11,11 +11,14 @@ $(function () {
         });
    }
    if (window.IScroll) {
-       $('ui_searchlist > div[id][data-scroll]').each(function () {
+       $('.ui_searchlist > div[id][data-scroll]').each(function () {
            var id = $(this).attr('id');
            var size = $(this).attr('data-scroll');
-
            $(this).attr('style', 'height: '+size+'px;');
+
+           $(window).on('load', function () {
+              new IScroll('#'+id, { freescroll: true, scrollbars: true });
+           });
        })
    }
 });

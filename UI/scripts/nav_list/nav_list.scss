@@ -126,6 +126,8 @@
   margin: 40px 0 -58px 0;
   font-size: 18px;
   color: $cream;
+  z-index: 1000;
+  position: relative;
 }
 
 .ui_searchlist > input {
@@ -142,6 +144,8 @@
 
 .ui_searchlist > div {
   overflow: hidden;
+  position: relative;
+  background: $brown;
 }
 
 @media screen and (max-width: 320px) {
