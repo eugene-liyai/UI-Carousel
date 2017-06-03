@@ -109,7 +109,14 @@
   @include boxShadow(1px 1px 2px rgba(0, 0, 0, .55px));
 }
 
-
+.ui_searchlist > span {
+  margin: 0 20px;
+  line-height: 47px;
+  text-align: center;
+  font-family: "liga";
+  font-size: 20px;
+  color: $textOne;
+}
 
 @media screen and (max-width: 320px) {
   .ui_navlist span {
