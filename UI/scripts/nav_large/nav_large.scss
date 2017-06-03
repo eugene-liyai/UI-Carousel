@@ -49,3 +49,19 @@
   background-color: $darkBrown;
 }
 
+.nav_large a span {
+  display: inline-block;
+  float: right;
+  width: 27px;
+  height: 27px;
+  line-height: 27px;
+  margin: 4px 4px 4px 10px;
+  color: $textOne;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+  text-indent: 3px;
+  background: white;
+  @include borderRadius(50%);
+}
+
