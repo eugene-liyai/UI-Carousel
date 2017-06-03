@@ -64,6 +64,7 @@
   border-color: $lightBrown;
   margin: 15px 10px 15px 15px;
   @include borderRadius(50%);
+  @include transition(margin-left .3s);
 }
 
 .ui_navlist p {
@@ -73,6 +74,7 @@
   font-size: 14px;
   margin: 0;
   padding: 20px 20px 0 0;
+  @include transition(opacity .3s);
 }
 
 @media screen and (max-width: 320px) {
