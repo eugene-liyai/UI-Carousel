@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'liga';
-  src: url("../font/websymbolsligaregular-webfont-webfont.eot");
-  src: url("../font/websymbolsligaregular-webfont-webfont.eot?#iefix") format("embedded-opentype"), url("../font/websymbolsligaregular-webfont-webfont.woff") format("woff"), url("../font/websymbolsligaregular-webfont-webfont.ttf") format("truetype"), url("../font/websymbolsligaregular-webfont-webfont.svg#web_symbols_ligaregular") format("svg");
+  src: url("../font/websymbolsligaregular.eot");
+  src: url("../font/websymbolsligaregular.eot?#iefix") format("embedded-opentype"), url("../font/websymbolsligaregular.woff") format("woff"), url("../font/websymbolsligaregular.ttf") format("truetype"), url("../font/websymbolsligaregular.svg#web_symbols_ligaregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 body {
@@ -80,5 +80,62 @@ body {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%; }
+
+.nav_large ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  float: left;
+  background: #4f3b3b;
+  color: #fff;
+  list-style-type: none; }
+
+.nav_large li {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  width: 33.33333%;
+  border-left: 1px solid #959595; }
+
+.nav_large li:first-child {
+  border-left: none; }
+
+.nav_large li p {
+  margin: 10px 0;
+  padding: 0;
+  text-align: center;
+  line-height: 200%;
+  font-size: 29px;
+  font-weight: 200; }
+
+.nav-large li span {
+  font-family: "liga"; }
+
+.nav-large small {
+  font-size: 12px;
+  font-weight: normal; }
+
+@media screen and (max-width: 760px) {
+  .nav-large small {
+    display: block;
+    width: 100%;
+    margin-top: -20px; } }
+@media screen and (max-width: 480px) {
+  .nav-large {
+    text-align: center; }
+
+  .nav-large h1 {
+    margin-bottom: 10px;
+    font-size: 35px; }
+
+  .nav-large > p {
+    font-size: 18px; }
+
+  .nav-large a {
+    margin-left: 0; }
+
+  .nav-large li p {
+    font-size: 20px; } }
 
 /*# sourceMappingURL=nav_large.css.map */
