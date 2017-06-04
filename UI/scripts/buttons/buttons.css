@@ -146,7 +146,76 @@ div.button_r a {
 div.button_b a {
   background: #361c12; }
 
-body > a {
+div.button_y a span, div.button_r a span, div.button_b a span {
+  display: block;
+  width: 27px;
+  height: 27px;
+  line-height: 27px;
+  float: inherit;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+  text-indent: 3px;
+  margin: 4px 4px 0 10px;
+  background: white;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%; }
+
+div.button_y a span {
+  color: #cd9c50; }
+
+div.button_r a span {
+  color: #9d321b; }
+
+div.button_b a span {
+  color: #4f3b3b; }
+
+@media screen and (max-width: 560px) {
+  div.button_y, div.button_r, div.button_b {
+    max-width: 260px; }
+
+  div.button_y div, div.button_r div, div.button_b div {
+    width: 100%;
+    height: 140px;
+    min-height: 0;
+    float: left; }
+
+  div.button_y img, div.button_r img, div.button_b img {
+    width: 260px;
+    height: auto; }
+
+  div.button_y > span, div.button_r > span, div.button_b > span {
+    font-size: 41px;
+    line-height: 41px;
+    float: left;
+    margin: 20px 0 0 20px;
+    width: 100%; }
+
+  div.button_y p, div.button_r p, div.button_b p {
+    margin: 10px 20px; }
+
+  div.button_y p span, div.button_r p span, div.button_b p span {
+    display: none; }
+
+  div.button_y p small, div.button_r p small, div.button_b p small {
+    display: block;
+    font-size: 14px; }
+
+  div.button_y a, div.button_r a, div.button_b a {
+    font-size: 12px;
+    line-height: 27px;
+    height: 25px;
+    padding-left: 10px;
+    margin: 5px 20px 20px 0; }
+
+  div.button_y a span, div.button_r a span, div.button_b a span {
+    width: 19px;
+    height: 19px;
+    line-height: 19px;
+    font-size: 1.2em;
+    margin: 3px, 3px 0 5px; } }
+body > a, body > div {
   margin-top: 40px; }
 
 /*# sourceMappingURL=buttons.css.map */
