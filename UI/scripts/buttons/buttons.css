@@ -60,6 +60,25 @@ a.button_y, a.button_r, a.button_b {
   -webkit-box-shadow: 0.1em 0.06em 4px rgba(0, 0, 0, 0.75);
   box-shadow: 0.1em 0.06em 4px rgba(0, 0, 0, 0.75); }
 
+a.button_y p, a.button_r p, a.button_b p {
+  font-size: 21px;
+  line-height: 40px;
+  padding: 0;
+  margin: 20px 0; }
+
+a.button_y span, a.button_r span, a.button_b span {
+  font-family: "liga";
+  font-size: 280%;
+  margin-left: -10px;
+  float: left; }
+
+a.button_y em, a.button_r em, a.button_b em {
+  display: block;
+  font-size: 33px;
+  line-height: 33px;
+  font-style: normal;
+  padding-top: 20px; }
+
 body > a {
   margin-top: 40px; }
 
