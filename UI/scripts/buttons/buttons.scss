@@ -1,0 +1,56 @@
+@import "../Import";
+
+.button_y {
+  background: $yellow;
+  border-color: $darkYellow;
+  color: $textOne;
+}
+
+a.button_y:hover {
+  background: $yellowHover;
+}
+
+.button_r {
+  background: $red;
+  border-color: $darkRed;
+  color: $textTwo;
+}
+
+a.button_r:hover {
+  background: $redHover;
+}
+
+.button_b {
+  background: $brown;
+  border-color: $darkBrown;
+  color: $textTwo;
+}
+
+a.button_b:hover {
+  background: $brownHover;
+}
+
+a.button_y,a.button_r,a.button_b {
+  display: inline-block;
+  min-width: 150px;
+  min-height: 30px;
+  line-height: 30px;
+  padding: 0 20px;
+  border-width: 1px;
+  border-bottom-width: 5px;
+  text-decoration: none;
+  border-style: solid;
+  text-align: center;
+  font-size: 17px;
+  @include transition(background .3s);
+  @include borderRadius(3px);
+  @include boxShadow(0.1em 0.06em 4px rgba(0, 0, 0, .75));
+}
+
+//medium size buttons
+
+
+//presentation styles
+body > a {
+  margin-top: 40px;
+}

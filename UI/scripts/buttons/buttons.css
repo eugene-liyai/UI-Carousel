@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'liga';
+  src: url("../font/websymbolsligaregular.eot");
+  src: url("../font/websymbolsligaregular.eot?#iefix") format("embedded-opentype"), url("../font/websymbolsligaregular.woff") format("woff"), url("../font/websymbolsligaregular.ttf") format("truetype"), url("../font/websymbolsligaregular.svg#web_symbols_ligaregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  margin: 35px;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Helvetica", arial;
+  font-weight: normal;
+  font-size: 16px;
+  color: #666; }
+
+.button_y {
+  background: #f4d37a;
+  border-color: #cd9c50;
+  color: #4f3b3b; }
+
+a.button_y:hover {
+  background: #e9ca76; }
+
+.button_r {
+  background: #e56655;
+  border-color: #9d321b;
+  color: #fff; }
+
+a.button_r:hover {
+  background: #d45c4c; }
+
+.button_b {
+  background: #4f3b3b;
+  border-color: #361c12;
+  color: #fff; }
+
+a.button_b:hover {
+  background: #433232; }
+
+a.button_y, a.button_r, a.button_b {
+  display: inline-block;
+  min-width: 150px;
+  min-height: 30px;
+  line-height: 30px;
+  padding: 0 20px;
+  border-width: 1px;
+  border-bottom-width: 5px;
+  text-decoration: none;
+  border-style: solid;
+  text-align: center;
+  font-size: 17px;
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  -o-transition: background 0.3s;
+  transition: background 0.3s;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0.1em 0.06em 4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0.1em 0.06em 4px rgba(0, 0, 0, 0.75);
+  box-shadow: 0.1em 0.06em 4px rgba(0, 0, 0, 0.75); }
+
+body > a {
+  margin-top: 40px; }
+
+/*# sourceMappingURL=buttons.css.map */
