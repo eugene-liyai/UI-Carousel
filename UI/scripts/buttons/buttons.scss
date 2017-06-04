@@ -47,7 +47,7 @@ a.button_y,a.button_r,a.button_b {
   @include boxShadow(0.1em 0.06em 4px rgba(0, 0, 0, .75));
 }
 
-//medium size buttons
+// medium size buttons
 a.button_y p, a.button_r p, a.button_b p {
   font-size: 21px;
   line-height: 40px;
@@ -70,7 +70,77 @@ a.button_y em, a.button_r em, a.button_b em {
   padding-top: 20px;
 }
 
-//presentation styles
+// large size buttons
+div.button_y, div.button_r, div.button_b {
+  min-width: 480px;
+  width: 100%;
+  min-height: 260px;
+  overflow: hidden;
+  @include borderRadius(3px);
+  @include boxShadow(1px 1px 2px rgba(0, 0, 0, .55));
+}
+
+div.button_y div, div.button_r div, div.button_b div {
+  overflow: hidden;
+  min-height: inherit;
+  width: 190px;
+  float: right;
+}
+
+div.button_y img, div.button_r img, div.button_b img {
+  float: inherit;
+  margin-right: -130px;
+}
+
+div.button_y > span, div.button_r > span, div.button_b > span {
+  font-family: "liga";
+  font-size: 54px;
+  line-height: 54px;
+  margin: 35px 0 0 35px;
+  display: block;
+}
+
+div.button_y p, div.button_r p, div.button_b p {
+  margin: 10px 210px 10px 35px;
+  font-size: 19px;
+  line-height: 200%;
+}
+
+div.button_y small, div.button_r small, div.button_b small {
+  display: none;
+}
+
+div.button_y a, div.button_r a, div.button_b a {
+  display: block;
+  float: right;
+  height: 35px;
+  line-height: 35px;
+   color: $textTwo;
+  text-decoration: none;
+  font-size: 15px;
+  padding-left: 20px;
+  margin: 10px 20px 0 0;
+  @include borderRadius(20px);
+  @include transition(opacity .3s);
+}
+
+div.button_y a:hover, div.button_r a:hover, div.button_b a:hover {
+  opacity: .8;
+}
+
+div.button_y a {
+  background: $darkYellow;
+}
+
+div.button_r a {
+  background: $darkRed;
+}
+
+div.button_b a {
+  background: $darkBrown;
+}
+
+// presentation styles
 body > a {
   margin-top: 40px;
 }
